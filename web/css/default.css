@@ -1,0 +1,335 @@
+/*CSS para el movil*/
+
+/*----------------------------- LETRAS ---------------------------------*/
+@font-face {
+	font-family:letra1;
+	src:url(../fuentes/DukasCFRegular-Regular.otf);
+}
+
+body {
+	margin:0;
+  	background-image: url("../img/fondo.jpg");
+	background-position: center center;
+	background-attachment: fixed;
+	background-repeat:no-repeat;
+	background-size:cover;
+	text-align: justify;
+	font-size: 14px;
+	color: #757E82;
+}
+
+/*-------------------- CUADRADO DE LA APLICACIÓN -----------------------*/
+#container {
+	margin: 10px auto  0 auto;
+ 	width: 450px;
+	height:200px;
+ 	background:#fff;
+ 	border-radius:15px 15px 15px 15px;
+}
+
+/*------------------------------- CABECERA ------------------------------*/
+#header {
+	background: linear-gradient(70deg, #565655, #ADADAB);
+	text-align: center;
+	padding: 20px;
+	color: white;
+	font-family: letra1;
+	border-radius: 15px 15px 0px 0px ;
+}
+
+/*titulo cabecera*/
+#header h1 {
+  	font-size: 40px;
+ 	margin: 0;
+}
+#header h2 {
+	font-size: 20px;
+	margin: 0;
+}
+
+/*------------------------------ CONTENIDO -----------------------------*/
+#content {
+	background: white;
+
+}
+
+#registro {
+ 	height:400px;
+}
+
+#acceso{
+	height:300px;
+}
+
+#usuariosC{
+	height:230px;
+}
+
+#nuevo{
+	height:440px;
+}
+
+#modificar{
+	height:410px;
+}
+
+#detalles{
+	height:310px;
+	
+}
+/*------------------------------ ERRORES ---------------------------*/	
+.aviso{
+	color:black;
+	padding:4px;
+	font-weight:bold;
+}
+
+/*------------------------------ ENLACES ------------------------------*/
+/*Enlace página de acceso*/
+.enlaceAlta {
+	color: #00BDD1;
+	text-align:center;
+	font-size: 1.5rem;
+}
+
+.enlaceDetalles{
+	color:white;
+}
+
+
+textarea {
+   resize: none;
+}
+/* ---------------------------- TABLAS ----------------------------------*/
+/*Tabla acceso*/
+#tacceso {
+	margin-top: 2rem;
+	height:100px;
+	font-size:25px;
+
+}
+
+/*Tablas de formularios:registro, nuevo  modificar*/
+#tablas {
+	margin-top: 2rem;
+	height:100px;
+	font-size:20px;
+
+}
+
+
+/*Tabla de usuarios*/
+#tusuarios,#usuarios {
+	margin-top: 10px;
+        border: 1.5px dotted black;
+ 	border-collapse:collapse;
+  	padding: 4px;
+	width:20px;
+	font-size:2.3vh;
+}
+#login{
+	margin-top: 10px;
+        border: 1.7px dotted black;
+ 	border-collapse:collapse;
+  	padding: 4px;
+	width:20px;
+	font-size:2.3vh;
+	color:#6827E5;
+	font-weight:bold;
+}
+
+
+#dcontenido{
+	padding-left: 20px;
+
+}
+
+#dapartado{
+	padding-left: 0px;
+	font-weight:bold;
+}
+
+
+/*----------------------------- FORMULARIOS ----------------------------*/
+
+#facceso{
+	width:180px;
+	height: 20px;
+	padding:3px 10px;
+	border:1px dotted grey;
+	border-radius:3px;
+	background-color:#f6f6f6;
+	margin:8px 0px 10px 13px;
+	display:inline-block;
+}
+
+/*formularios: registro, nuevo y modificar*/
+#formu{
+	width:170px;
+	height: 20px;
+	padding:3px 10px;
+	border:1px dotted grey;
+	border-radius:3px;
+	background-color:#f6f6f6;
+	margin:8px 0px 10px 13px;
+	display:inline-block;
+}
+
+
+#select{
+	width:90px;
+	height: 26px;
+	padding:3px 10px;
+	border:1px dotted grey;
+	border-radius:3px;
+	background-color:#f6f6f6;
+	margin:8px 0px 10px 13px;
+	display:inline-block;
+}
+
+/*----------------------------- BOTONES --------------------------------*/
+#entrar {
+	margin-top:15px; 
+	background-image: -webkit-linear-gradient(top, #565655,#ADADAB);
+  	background-image: -moz-linear-gradient(top, #565655,#ADADAB);
+  	background-image: -ms-linear-gradient(top, #565655, #ADADAB);
+  	background-image: -o-linear-gradient(top, #565655, #ADADAB);
+ 	background-image: linear-gradient(to bottom, #565655, #ADADAB);
+	-webkit-border-radius: 28;
+ 	-moz-border-radius: 28;
+ 	border-radius: 28px;		
+	text-shadow: 3px 2px 1px #00BDD1;
+	box-shadow: 3px 2px 14px #00BDD1;
+	font-family: Arial;
+	color: white;
+ 	font-size: 27px;
+ 	padding: 19px;
+  	text-decoration: none;
+}
+
+#cerrar {
+	margin-top:15px; 
+	margin-left:1vh;
+	background-image: -webkit-linear-gradient(top, #565655, #ADADAB);
+	background-image: -moz-linear-gradient(top, #565655,#ADADAB);
+	background-image: -ms-linear-gradient(top, #565655, #ADADAB);
+	background-image: -o-linear-gradient(top, #565655, #ADADAB);
+        background-image: linear-gradient(to bottom, #565655, #ADADAB);
+	-webkit-border-radius: 28;
+ 	-moz-border-radius: 28;
+ 	border-radius: 28px;
+	text-shadow: 3px 2px 1px #00BDD1;
+	box-shadow: 3px 2px 14px #00BDD1;
+	font-family: Arial;
+        color: white;
+ 	font-size: 2vh;
+ 	padding: 19px;
+  	text-decoration: none;
+}
+
+#boton {
+	margin-top:15px; 
+	margin-left:1vh;
+	background-image: -webkit-linear-gradient(top, #565655, #ADADAB);
+	background-image: -moz-linear-gradient(top, #565655,#ADADAB);
+	background-image: -ms-linear-gradient(top, #565655, #ADADAB);
+	background-image: -o-linear-gradient(top, #565655, #ADADAB);
+        background-image: linear-gradient(to bottom, #565655, #ADADAB);
+	-webkit-border-radius: 28;
+ 	-moz-border-radius: 28;
+ 	border-radius: 28px;
+	text-shadow: 3px 2px 1px #00BDD1;
+	box-shadow: 3px 2px 14px #00BDD1;
+	font-family: Arial;
+        color: white;
+ 	font-size: 2vh;
+ 	padding: 19px;
+  	text-decoration: none;
+}
+
+#atras{
+	margin-top:15px; 
+	margin-left:1vh;
+	background-image: -webkit-linear-gradient(top, #565655, #ADADAB);
+	background-image: -moz-linear-gradient(top, #565655,#ADADAB);
+	background-image: -ms-linear-gradient(top, #565655, #ADADAB);
+	background-image: -o-linear-gradient(top, #565655, #ADADAB);
+        background-image: linear-gradient(to bottom, #565655, #ADADAB);
+	-webkit-border-radius: 28;
+ 	-moz-border-radius: 28;
+ 	border-radius: 28px;
+	text-shadow: 3px 2px 1px #00BDD1;
+	box-shadow: 3px 2px 14px #00BDD1;
+	font-family: Arial;
+        color: white;
+ 	font-size: 2.5vh;
+ 	padding: 19px;
+  	text-decoration: none;
+}
+
+#entrar:hover {
+	background:#6827E5;
+
+}
+
+#cerrar:hover {
+	background:#6827E5;
+
+}
+
+/*--------------------------- ETIQUETA -------------------------*/
+ #flotante
+    {
+        position: absolute;
+        display:none;
+        font-family:Arial;
+        font-size:0.8em;
+        width:42px;
+        border:1px solid #808080;
+        background: #00BDD1;
+        padding:5px;
+	color:white;
+	font-weight:bold;
+    }
+
+ #flotanteM
+    {
+        position: absolute;
+        display:none;
+        font-family:Arial;
+        font-size:0.8em;
+        width:46px;
+        border:1px solid #808080;
+        background:#00BDD1;
+        padding:5px;
+	color:white;
+	font-weight:bold;
+    }
+ #flotanteD
+    {
+        position: absolute;
+        display:none;
+        font-family:Arial;
+        font-size:0.8em;
+        width:42px;
+        border:1px solid #808080;
+        background-color:#00BDD1;
+        padding:5px;
+	color:white;
+	font-weight:bold;
+    }
+
+/*PIE DE PAGINA*/
+
+#footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 26px;
+   	background:#565655;
+   	color: white;
+   	font-size: 13px;
+   	font-family: monospace;
+	opacity: 0.7;
+	text-align:center;
+}
